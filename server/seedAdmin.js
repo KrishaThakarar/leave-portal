@@ -1,9 +1,4 @@
-// seedAdmin.js
-// A one-time helper script to create an admin account so you can log in to the
-// Admin Dashboard. Run it with:  npm run seed:admin
-//
-// It reads the email/password/name from the command line, or uses defaults.
-// Example: node seedAdmin.js admin@company.com secret123 "Admin User"
+
 import "dotenv/config";
 import bcrypt from "bcryptjs";
 import mongoose from "mongoose";
