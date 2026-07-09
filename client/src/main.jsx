@@ -1,5 +1,5 @@
 // main.jsx — the very first file React runs.
-// It renders our <App /> into the <div id="root"> in index.html.
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
