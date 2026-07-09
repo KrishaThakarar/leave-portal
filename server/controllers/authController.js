@@ -39,8 +39,7 @@ export async function register(req, res) {
       name,
       email,
       passwordHash,
-      // Allow "admin" only if explicitly requested (handy while learning/testing).
-      // In a real app you would lock this down.
+      
       role: role === "admin" ? "admin" : "employee",
     });
 
