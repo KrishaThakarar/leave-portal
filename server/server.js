@@ -1,5 +1,4 @@
-// server.js — the entry point of the backend.
-// Run with:  npm run dev   (development)  or  npm start  (production)
+
 import "dotenv/config"; // loads variables from .env into process.env
 import express from "express";
 import cors from "cors";
