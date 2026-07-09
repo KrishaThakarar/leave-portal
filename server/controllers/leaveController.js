@@ -4,7 +4,7 @@ import LeaveRequest from "../models/LeaveRequest.js";
 import User from "../models/User.js";
 import { LEAVE_TYPES } from "../config/leaveTypes.js";
 
-// Counts the number of days between two dates, INCLUDING both ends.
+
 // Example: Mon -> Wed = 3 days.
 function countDays(startDate, endDate) {
   const oneDay = 1000 * 60 * 60 * 24; // milliseconds in a day
@@ -41,7 +41,7 @@ export async function applyLeave(req, res) {
 
     const days = countDays(start, end);
 
-    // Optional friendly check: warn early if they clearly don't have enough balance.
+    
     const currentBalance = req.user.leaveBalance[type];
     if (days > currentBalance) {
       return res.status(400).json({
