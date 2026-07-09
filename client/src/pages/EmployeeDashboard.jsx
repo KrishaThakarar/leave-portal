@@ -1,5 +1,5 @@
 // pages/EmployeeDashboard.jsx
-// The landing page after login. Shows the per-type leave balances and quick links.
+
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext.jsx";
@@ -7,10 +7,8 @@ import { useAuth } from "../context/AuthContext.jsx";
 export default function EmployeeDashboard() {
   const { user, refreshUser } = useAuth();
 
-  // The balance stored in context is only as fresh as the last login/refresh.
-  // Re-fetch it every time this page is opened so an admin's approval (which
-  // deducts days on the backend) is reflected here without needing a full
-  // page reload.
+  
+  
   useEffect(() => {
     refreshUser();
     // eslint-disable-next-line react-hooks/exhaustive-deps
