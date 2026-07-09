@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema(
       lowercase: true,
       trim: true,
     },
-    // We NEVER store the real password. We store a bcrypt hash of it.
+    
     passwordHash: {
       type: String,
       required: true,
@@ -36,7 +36,7 @@ const userSchema = new mongoose.Schema(
     },
   },
   {
-    // Automatically adds createdAt and updatedAt fields.
+    
     timestamps: true,
   }
 );
