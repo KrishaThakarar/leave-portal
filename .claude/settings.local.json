@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(gcc -o /tmp/1_test 1.c)",
-      "Bash(/tmp/1_test)"
-    ]
-  }
-}
