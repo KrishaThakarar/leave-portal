@@ -25,7 +25,7 @@ body {
   color: var(--text);
 }
 
-/* ---------- Navbar ---------- */
+/* -- Navbar -- */
 .navbar {
   display: flex;
   align-items: center;
@@ -62,14 +62,14 @@ body {
   opacity: 0.9;
 }
 
-/* ---------- Layout ---------- */
+/* --- Layout --- */
 .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 1.5rem 1rem;
 }
 
-/* ---------- Cards ---------- */
+/* --- Cards -- */
 .card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -82,7 +82,7 @@ body {
   margin: 1.5rem auto;
 }
 
-/* ---------- Forms ---------- */
+/* --- Forms -- */
 form {
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@ textarea:focus {
   outline-offset: 1px;
 }
 
-/* ---------- Buttons ---------- */
+/* --- Buttons -- */
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -155,7 +155,7 @@ textarea:focus {
   background: #b91c1c;
 }
 
-/* ---------- Messages ---------- */
+/*--- Messages --- */
 .error {
   color: var(--red);
   background: #fee2e2;
@@ -175,7 +175,7 @@ textarea:focus {
   font-size: 0.8rem;
 }
 
-/* ---------- Dashboard balance cards ---------- */
+/* --- Dashboard balance cards --- */
 .balance-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -209,7 +209,7 @@ textarea:focus {
   flex-wrap: wrap;
 }
 
-/* ---------- Tables ---------- */
+/* -- Tables --- */
 .table-wrapper {
   overflow-x: auto; /* lets wide tables scroll on small phones */
 }
@@ -237,7 +237,7 @@ textarea:focus {
   gap: 0.4rem;
 }
 
-/* ---------- Filters ---------- */
+/*--- Filters --- */
 .filters {
   display: flex;
   gap: 1.5rem;
@@ -253,7 +253,7 @@ textarea:focus {
   margin: 0;
 }
 
-/* ---------- Badges ---------- */
+/* --- Badges --- */
 .badge {
   display: inline-block;
   padding: 0.2rem 0.6rem;
